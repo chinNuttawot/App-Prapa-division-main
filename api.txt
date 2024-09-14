@@ -1,0 +1,35 @@
+login PAGE
+https://prapade.com/prapa/api/login.php?userName=&$userPass=
+https://prapade.com/prapa/api/checklogin.php?userName=030001&userPass=
+
+HOME PAGE
+https://prapade.com/prapa/api/selectcollectarea.php
+https://prapade.com/prapa/api/searchmemberbyarea.php?areaCode=2
+https://prapade.com/prapa/api/reportcollectuser.php?dateStart=13/12/2566&userID=030001
+https://prapade.com/prapa/api/reportcollectbyuserpdf.php?userID=030001
+https://prapade.com/prapa/api/updateuserpassword.php?userID=&userPass=
+
+METER PAGE
+https://prapade.com/prapa/api/allcollectedmeter.php?areaCode=5
+https://prapade.com/prapa/api/alreadycollectedmeter.php?areaCode=5
+https://prapade.com/prapa/api/notcollectedmeter.php?areaCode=5
+https://prapade.com/prapa/api/showdetailmember.php?memberID=67020024
+https://prapade.com/prapa/api/savemetermember.php?memberID=67020024&billCycle=67-01&beforeCollected=3&lastCollected=50&meterTypeCode=1&userID=030001
+
+PAYMENT PAGE
+https://prapade.com/prapa/api/searchmember.php?searchMember=67-0024
+https://prapade.com/prapa/api/searchhistorymember.php?memberID=67020024
+https://prapade.com/prapa/api/searchhistorydetailmember.php?historyID=58
+https://prapade.com/prapa/api/savepaybill.php?historyID=58&userID=030001&method=C //** C= CASH,T=TRANSFER **//
+
+LOCATION ADD METERPOINT PAGE
+https://prapade.com/prapa/api/showmapmember.php?searchMember=67020024
+https://prapade.com/prapa/api/insertmapmember.php?userID=ADMIN001&$memberID=67020024&picOrder=1&meterGPS=&photos_upload=
+
+USER_HOME PAGE
+https://prapade.com/prapa/api/showuserhomedetail.php?memberID=67020024
+
+USER_ALERT PAGE
+https://prapade.com/prapa/api/searchincidenttitle.php
+https://prapade.com/prapa/api/insertuseralert.php?memberID=67020024&complainTitle=test&complainName=testname&complainTel=testtel&complainDetail=testDetail
+
